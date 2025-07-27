@@ -1,6 +1,16 @@
-# Ignore non-Dart languages from linguist stats
-*.cpp linguist-vendored
-*.c linguist-vendored
-*.cmake linguist-vendored
-*.swift linguist-vendored
-*.html linguist-vendored
+*.dart linguist-detectable=true
+*.cpp linguist-detectable=false
+*.c linguist-detectable=false
+*.cmake linguist-detectable=false
+*.swift linguist-detectable=false
+*.html linguist-detectable=false
+*.xml linguist-detectable=false
+*.json linguist-detectable=false
+*.md linguist-detectable=false
+*.yaml linguist-detectable=false
+*.yml linguist-detectable=false
+*.txt linguist-detectable=false
+*.gradle linguist-detectable=false
+*.bat linguist-detectable=false
+*.iml linguist-detectable=false
+*.java linguist-detectable=false
