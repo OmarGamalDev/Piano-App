@@ -5,10 +5,7 @@ class TuneModel {
   final String soundFile;
   final Color color;
 
-  const TuneModel({
-    required this.soundFile,
-    required this.color,
-  });
+  const TuneModel({required this.soundFile, required this.color});
 
   Future<void> playSound() async {
     final player = AudioPlayer();
