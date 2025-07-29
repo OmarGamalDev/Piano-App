@@ -9,6 +9,7 @@ class PianoScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Color(0xff253039),
+        elevation:0,
         title: const Text(
           'Flutter Tune',
           style: TextStyle(
